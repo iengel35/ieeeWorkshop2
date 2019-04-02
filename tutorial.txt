@@ -1,0 +1,49 @@
+============================ WORKSPACE FOR TUTORIAL ===========================
+Name:
+Major:
+Hometown:
+================================= CHEAT SHEET =================================
+=== SETUP ===
+See where Git is located: which git
+Get the version of Git: git --version
+Help: git help
+
+=== GENERAL ===
+Initialize Git: git init
+Clone Remote Repo: git clone <repo>
+Get everything ready to commit: git add .
+Get certain file ready to commit: git add <insert file name here>
+Commit changes: git commit -m "Message"
+
+=== COMPARE ===
+Compare modified files: git diff
+
+=== COLLABORATE ===
+Push: git push
+Pull: git pull
+
+=== GENERAL WORKFLOW FOR ADDING FILES ===
+1.) git pull
+2.) ---Make your changes to the code---
+3.) git add .
+4.) git commit -m "Message"
+5.) git push
+
+=== USING THE LOG ===
+Show commits: git log
+Show oneline-summary of commits: git log --oneline
+Show oneline-summary of the last three commits: git log --oneline -3
+Show oneline-summary of commits with full SHA-1: git log --format=oneline
+
+=== BRANCHING ===
+Show branches: git branch
+Create branch: git branch branchname
+Change to branch: git checkout branchname
+Create and change to new branch: git checkout -b branchname
+Rename branch: git branch -m branchname new_branchname
+Replace local changes using the command: git checkout -- <filename>
+
+=== MERGING ===
+True merge (fast forward): git merge branchname
+
+===============================================================================
