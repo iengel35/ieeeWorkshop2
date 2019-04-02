@@ -1,8 +1,8 @@
-============================ WORKSPACE FOR TUTORIAL ===========================
-Name: Test test
+======== WORKSPACE FOR TUTORIAL ========
+Name:
 Major:
-Hometown:
-================================= CHEAT SHEET =================================
+Favorite Song:
+======== CHEAT SHEET ===================
 === SETUP ===
 See where Git is located: which git
 Get the version of Git: git --version
@@ -32,8 +32,7 @@ Pull: git pull
 === USING THE LOG ===
 Show commits: git log
 Show oneline-summary of commits: git log --oneline
-Show oneline-summary of the last three commits: git log --oneline -3
-Show oneline-summary of commits with full SHA-1: git log --format=oneline
+Show oneline-summary of the last N commits: git log --oneline -N
 
 === BRANCHING ===
 Show branches: git branch
@@ -45,5 +44,3 @@ Replace local changes using the command: git checkout -- <filename>
 
 === MERGING ===
 True merge (fast forward): git merge branchname
-
-===============================================================================
