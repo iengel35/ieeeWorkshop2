@@ -1,6 +1,6 @@
 ======== WORKSPACE FOR TUTORIAL ========
-Name:
-Major:
+Name:Izy
+Major: CPE
 Favorite Song:
 ======== CHEAT SHEET ===================
 === SETUP ===
